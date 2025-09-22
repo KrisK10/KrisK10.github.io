@@ -1,0 +1,28 @@
+@import url("NNFT/stylesheet.css");
+/* Full-page background image styling with upper part focus */
+.full-page-image {
+    background-image: url('images/friends2.jpg'); /* Path to the image */
+    background-size: cover; /* Ensure the image covers the entire screen */
+    background-position: top; /* Show more of the upper part of the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    height: 100vh; /* Full viewport height */
+    width: 100vw; /* Full viewport width */
+    position: relative;
+    left: -7px;
+    bottom: 7px;
+}
+
+/* Overlay text box styling */
+.overlay-text {
+    position: absolute;
+    font-size: 48px;
+    background-color: #85FFD3;
+    left: 273px;
+    bottom: 105px;
+    padding-left: 61px;
+    padding-bottom: 42px;
+    border-radius: 50px;
+    padding-right: 45px;
+    padding-top: 24px;
+    font-family: NNFT;
+}
