@@ -1,0 +1,27 @@
+@charset "UTF-8";
+@import url("NNFT/stylesheet.css");
+
+.video {
+ position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.text {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: NNFT;
+    background-color: rgba(146,23,0,0.90);
+    color: #FFFFFF;
+    padding-top: 0px;
+    border-radius: 18px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-size: xx-large;
+}
